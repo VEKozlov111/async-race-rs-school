@@ -14,3 +14,12 @@ export function PageButtonsUpdate(): void {
     prevPageButton.disabled = true;
   }
 }
+
+export function disableButtons(operator: boolean): void {
+  const btns = document.querySelectorAll(".btn") as NodeListOf<HTMLButtonElement>;
+  if (operator) {
+    btns.forEach((btn) => (btn.disabled = true));
+  } else {
+    PageButtonsUpdate();
+  }
+}
