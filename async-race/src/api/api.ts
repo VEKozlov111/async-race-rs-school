@@ -1,5 +1,5 @@
-import { ICar, ICarCreate, ICarSpeed, IRace, IWinner } from "../types/types";
-
+import { ICar, ICarCreate, ICarSpeed } from "../types/types";
+import { path, constants } from "../constants/constants";
 
 export const getCars = async (
   page: number,
