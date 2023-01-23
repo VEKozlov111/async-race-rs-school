@@ -1,17 +1,10 @@
-import { ICar, ICarCreate, IRace, IStartDriving } from "../../types/types";
+import { ICar, IRace, IStartDriving } from "../../types/types";
 import {
-  getCars,
-  getCar,
-  createCar,
-  deleteCar,
-  updateCar,
   startEngine,
   stopEngine,
   drive
 } from "../../api/api";
-import { constants } from "../../constants/constants";
 import { storage } from "../storage/storage";
-import { carBrands, carModels } from "../../data/dataCars";
 
 
 
