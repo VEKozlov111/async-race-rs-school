@@ -41,7 +41,7 @@ export const renderHtml = async (): Promise<void> => {
   body.innerHTML = template;
 };
 
-const renderGarage = () => `
+export const renderGarage = () => `
 <h1 class="text">Garage (total number of cars: ${storage.carsCount})</h1>
 <h2 class="text">Page: ${storage.garagePage} / ${Math.ceil(storage.carsCount / constants.garagePagesLimit)}</h2>
 <ul class="cars-list">
