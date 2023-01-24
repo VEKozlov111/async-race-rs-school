@@ -21,7 +21,7 @@ export function disableButtons(operator: boolean): void {
   const btns = document.querySelectorAll(".btn") as NodeListOf<HTMLButtonElement>;
   if (operator) {
     btns.forEach((btn) => (btn.disabled = true));
-  } else if (operator === false) {
+  } else if (operator == false) {
     btns.forEach((btn) => (btn.disabled = false));
     PageButtonsUpdate()
   }
