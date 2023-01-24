@@ -1,4 +1,6 @@
 import { ICar } from "../../types/types";
+import { storage } from "../storage/storage";
+import { constants } from "../../constants/constants";
 export const renderHtml = async (): Promise<void> => {
   const template = `
   <main class="main">

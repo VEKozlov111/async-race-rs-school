@@ -11,6 +11,7 @@ import { garageUpdate } from "../update-garage/index";
 import { renderGarage } from "../render-html/render";
 import { PageButtonsUpdate, disableButtons } from "../update-page-buttons/index";
 import { startDriving, stopDriving, race } from "../driving/index";
+import { generateCars } from "../generate-car/index";
 
 
 export const addEvents = function (): void {

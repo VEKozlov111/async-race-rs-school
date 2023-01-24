@@ -211,7 +211,7 @@ html {
   top: -12%;
   left: 47%;
   position: absolute;
-  background: url("./img/fire-svgrepo-com.svg") no-repeat 0 0;
+  background: url("./svg/fire.svg") no-repeat 0 0;
   background-size: contain;
   z-index: 1000;
 }
@@ -235,7 +235,7 @@ html {
   position: absolute;
   width: 50px;
   height: 50px;
-  background: url("./img/pennant-style-flag-svgrepo-com.svg") no-repeat 0 0;
+  background: url("./svg/pennant.svg") no-repeat 0 0;
   right: 5px;
   bottom: -5px;
 }

@@ -1,4 +1,5 @@
 import { IStorage } from "../../types/types";
+import { constants } from "../../constants/constants";
 
 export const storage: IStorage = {
   garagePage: constants.defaultGaragePage,

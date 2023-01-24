@@ -1,4 +1,5 @@
 import { ICarCreate } from "../../types/types"
+import { carBrands, carModels } from "../../data/dataCars"
 
 export function generateCars(count: number): ICarCreate[] {
   return new Array(count).fill(0).map((el) => ({ name: generateCarName(), color: generateCarColor() }));
